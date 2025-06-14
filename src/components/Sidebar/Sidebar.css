@@ -1,0 +1,90 @@
+.sidebar {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 25px 15px;
+    width: 250px; /* Adjust width as needed */
+    overflow: hidden; /* Prevent unwanted scrolling */
+}
+
+.sidebar img {
+    width: 20px;
+}
+
+.sidebar .menu {
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* New Chat Button */
+.sidebar .new-chat {
+    margin-top: 30px; /* Reduced margin to fit content */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+
+/* Recent Section */
+.sidebar .recent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Allows it to take available space */
+    overflow-y: auto; /* Scrolls if too many recent items */
+    max-height: 60vh;
+    animation: fadeIn 1.5s; /* Limits height to keep bottom section visible */
+}
+
+.sidebar .recent-title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.sidebar .recent-entry {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    color: #282828;
+    cursor: pointer;
+}
+
+.sidebar .recent-entry:hover {
+    background-color: #e2e6eb;
+}
+
+/* Bottom Section (Fixed at Bottom) */
+.sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds space between items */
+    padding-top: 20px;
+}
+
+.sidebar .bottom_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.sidebar .bottom_item:hover {
+    background-color: #e2e6eb;
+}
+
+@media(max-width:600px){
+    .sidebar{
+        display: none;
+    }
+}
