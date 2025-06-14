@@ -4,6 +4,11 @@ A Gemini-style chatbot web application built with **React**, **Vite**, and integ
 
 ---
 
+### 🌐 Live Demo
+
+🚀 Check out the live version of Gemini Clone here:  
+🔗 [https://gemini-clone13.netlify.app/](https://gemini-clone13.netlify.app/)
+
 ## 🚀 Features
 
 - 🧠 Gemini 1.5 Pro / Flash API integration
