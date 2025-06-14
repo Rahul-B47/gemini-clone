@@ -86,8 +86,7 @@ Explain computer networks.
 
 Give a Java program for Fibonacci series.
 
-🧾 License
-This project is licensed under the MIT License.
+
 
 👨‍💻 Author
 Developed by Rahul  Poojary
